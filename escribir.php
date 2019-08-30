@@ -55,8 +55,13 @@ if (isset($_POST["escribir"])) {
             </tr>
         </table>
         <input type="hidden" name="escribir">
-        <input type="submit" value="Crear archivo">
     </form>
+    <input type="submit" value="Crear">
+    <a href="subir.php">
+        <input type="submit" value="Subir Archivos">
+    </a>
+    <a href="contCarpeta.php">
+            <input type="submit" value="Visualizar Contenido Carpeta" name="crear">
+        </a>
 </body>
-
 </html>
